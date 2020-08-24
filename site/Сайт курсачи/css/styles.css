@@ -257,6 +257,31 @@ position: relative;
     height: 300px;
     margin: 0 auto 50px;
   }
+ .cover {
+    position: absolute;
+    top: -10000px;
+    padding: 6px 8px;
+    text-align: left;
+    line-height: 14px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    height: 248.6px;
+}
+.var_property {
+  height: 150px;
+  font-size: 30px;
+  color: #02edc4;
+  text-align: left;
+  line-height: 35px;
+  padding: 5px; 
+}
+  a:hover .cover{
+  opacity: 0.9;
+ }
 .tmm_vars_img span {
     position: absolute;
     bottom: 0;
@@ -843,8 +868,8 @@ background: url('../images/wires-lg.png') no-repeat top center fixed;
   background: url('../images/wires-md.png') no-repeat top center fixed;
 }
 .container-fluid {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 .parallelogram {
   height: 150px;
@@ -906,8 +931,23 @@ padding-left: 40px;
 }
 /********** Extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+.navbar-toggle{
+  margin-right: 0px;
+}
 .text-before-form {
   font-size: 30px;
+}
+#tmm_cell {
+padding-right: 0px;
+padding-left: 0px;
+}
+.tmm_header{
+padding-right: 10px;
+padding-left: 10px;  
+}
+.col-xs-12 {
+padding-right: 0px;
+padding-left: 0px; 
 }
 .input_row {
   margin-bottom: 15px;
@@ -1008,8 +1048,6 @@ hr {
   margin-bottom: 30px;
 }
 }
-
-
 
 @font-face {
   font-family: GOST; /* Имя шрифта */
