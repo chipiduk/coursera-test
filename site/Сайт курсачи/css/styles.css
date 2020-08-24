@@ -113,7 +113,7 @@ body{
 #nav-list a:hover {
   background: #E7E7E7;
 }
-#nav-list a span {
+#nav-list a div {
   font-size: 1.8em;
 }
 
